@@ -20,7 +20,7 @@ public class JSONPetParser {
 
     private Pet parseJSONStringAndReturnPet(String JSONAsString) {
         JSONObject jsonObject = new JSONObject(JSONAsString);
-
+        //Test comment
         String petName = jsonObject.getString("PetName");
         String petType = jsonObject.getString("PetType");
         String petAgeAsString = jsonObject.getString("PetAge");
